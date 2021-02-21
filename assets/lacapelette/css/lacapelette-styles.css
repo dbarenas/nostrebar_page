@@ -174,8 +174,7 @@ hr {
 	border-color: transparent;
 }
 #main-nav .navbar-brand > img {
-	width: 85%;
-}
+ }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 	background-color: transparent;
 }
@@ -359,7 +358,7 @@ header#medium .header-text {
 3.3. Header Images
 -----------------------------*/
 .lacapelette-intro {
-	background-image: url(http://www.nostre.bar/assets/images/NostreBarBACK.png);
+	background-image: url(https://scontent-mad1-1.xx.fbcdn.net/v/t1.0-9/37869726_2199549890074890_6719304209482645504_o.jpg?_nc_cat=101&ccb=3&_nc_sid=6e5ad9&_nc_ohc=aA2AgMTkyRgAX96W7gl&_nc_ht=scontent-mad1-1.xx&oh=e50571344e2561550336483e75558e7c&oe=6059108F);
 }
 .lacapelette-blog {
 	background-image: url(https://scontent-mad1-1.xx.fbcdn.net/v/t1.0-9/37869726_2199549890074890_6719304209482645504_o.jpg?_nc_cat=101&ccb=3&_nc_sid=6e5ad9&_nc_ohc=aA2AgMTkyRgAX96W7gl&_nc_ht=scontent-mad1-1.xx&oh=e50571344e2561550336483e75558e7c&oe=6059108F);
