@@ -130,6 +130,8 @@ hr {
 @media (min-width: 768px) {
 #main-nav.navbar-default {
 	background: 0 0;
+	background: rgb(255, 255, 255);
+
 	-webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
 	-moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
 	transition: background .5s ease-in-out, padding .5s ease-in-out;
@@ -138,11 +140,11 @@ hr {
 #main-nav.navbar-default.top-nav-collapse {
 	padding: 0;
 	border-color: transparent;
-	background: rgba(10,9,9,1);
+	background: rgb(255, 255, 255);
 }
 }
 #main-nav.navbar-default .nav li.active a {
-	color: #dea72d;
+	color: #000000;
 }
 #main-nav .navbar-brand {
 	padding: 15px 5px;
@@ -154,7 +156,7 @@ hr {
 #main-nav .nav > li > a {
 	padding: 25px 5px;
 	text-transform: uppercase;
-	color: #FFF;
+	color: rgb(0, 0, 0);
 	letter-spacing: 1px;
 }
 #main-nav .nav > li > a.active {
@@ -358,22 +360,22 @@ header#medium .header-text {
 3.3. Header Images
 -----------------------------*/
 .lacapelette-intro {
-	background-image: url(https://scontent-mad1-1.xx.fbcdn.net/v/t1.0-9/37869726_2199549890074890_6719304209482645504_o.jpg?_nc_cat=101&ccb=3&_nc_sid=6e5ad9&_nc_ohc=aA2AgMTkyRgAX96W7gl&_nc_ht=scontent-mad1-1.xx&oh=e50571344e2561550336483e75558e7c&oe=6059108F);
+	background-image: url(http://www.nostre.bar/assets/images/1_HOME.jpg);
 }
 .lacapelette-blog {
-	background-image: url(https://scontent-mad1-1.xx.fbcdn.net/v/t1.0-9/37869726_2199549890074890_6719304209482645504_o.jpg?_nc_cat=101&ccb=3&_nc_sid=6e5ad9&_nc_ohc=aA2AgMTkyRgAX96W7gl&_nc_ht=scontent-mad1-1.xx&oh=e50571344e2561550336483e75558e7c&oe=6059108F);
+	background-image: url(http://www.nostre.bar/assets/images/2_BAR.jpg);
 }
 .lacapelette-events {
-	background-image: url(https://scontent-mad1-1.xx.fbcdn.net/v/t1.0-9/37869726_2199549890074890_6719304209482645504_o.jpg?_nc_cat=101&ccb=3&_nc_sid=6e5ad9&_nc_ohc=aA2AgMTkyRgAX96W7gl&_nc_ht=scontent-mad1-1.xx&oh=e50571344e2561550336483e75558e7c&oe=6059108F);
+	background-image: url(http://www.nostre.bar/assets/images/3_TAKE_AWAY.jpg);
 }
 .lacapelette-menu {
-	background-image: url(https://scontent-mad1-1.xx.fbcdn.net/v/t1.0-9/37869726_2199549890074890_6719304209482645504_o.jpg?_nc_cat=101&ccb=3&_nc_sid=6e5ad9&_nc_ohc=aA2AgMTkyRgAX96W7gl&_nc_ht=scontent-mad1-1.xx&oh=e50571344e2561550336483e75558e7c&oe=6059108F);
+	background-image: url(http://www.nostre.bar/assets/images/4_PUNT_RECOLLIDA.jpg);
 }
 .lacapelette-recipe {
-	background-image: url(https://scontent-mad1-1.xx.fbcdn.net/v/t1.0-9/37869726_2199549890074890_6719304209482645504_o.jpg?_nc_cat=101&ccb=3&_nc_sid=6e5ad9&_nc_ohc=aA2AgMTkyRgAX96W7gl&_nc_ht=scontent-mad1-1.xx&oh=e50571344e2561550336483e75558e7c&oe=6059108F);
+	background-image: url(http://www.nostre.bar/assets/images/5_NOSALTRES.jpg);
 }
 .lacapelette-wine {
-	background-image: url(https://scontent-mad1-1.xx.fbcdn.net/v/t1.0-9/37869726_2199549890074890_6719304209482645504_o.jpg?_nc_cat=101&ccb=3&_nc_sid=6e5ad9&_nc_ohc=aA2AgMTkyRgAX96W7gl&_nc_ht=scontent-mad1-1.xx&oh=e50571344e2561550336483e75558e7c&oe=6059108F);
+	background-image: url(http://www.nostre.bar/assets/images/NostreBarBACK-small-vertical.png);
 }
 
 /* ---------------------------
@@ -385,9 +387,8 @@ section {
 section h2 {
 	text-transform: uppercase;
 	margin-bottom: 30px;
-		color: #FFFFFF;
+		color: #0a0909;
 
-	      background-color: green; 
 
 }
 section p {
@@ -406,7 +407,7 @@ section {
 section#about {padding:0}
 section#about {
 	text-align: center;
-	background: url(https://scontent-mad1-1.xx.fbcdn.net/v/t1.0-9/37869726_2199549890074890_6719304209482645504_o.jpg?_nc_cat=101&ccb=3&_nc_sid=6e5ad9&_nc_ohc=aA2AgMTkyRgAX96W7gl&_nc_ht=scontent-mad1-1.xx&oh=e50571344e2561550336483e75558e7c&oe=6059108F);
+	background: url(http://www.nostre.bar/assets/images/1_HOME.jpg);
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
@@ -435,86 +436,124 @@ section#specials {
 }
 
 /* ---------------------------
-7. Bakery CTA /Home Page/
+7.0 home CTA /Home Page/
 -----------------------------*/
-section#bakery-cta {
+section#home {
 	text-align: center;
-	padding: 150px 0
+	padding: 450px 0
 }
-section#bakery-cta {
-	background: url(https://lh5.googleusercontent.com/p/AF1QipPV6IJ6dN315KPuj-RrkMiFMDWPWBi3-RhcaSCK=s901-k-no);
-	background-position: center bottom;
+section#home {
+	background: url(http://www.nostre.bar/assets/images/1_HOME.jpg);
+	background-position: center top;
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
 }
-section#bakery-cta h2 {
-	font-size: 60px;
-	color: #FFFFFF;
-	      background-color: green; 
 
+/* ---------------------------
+7.0 BAR CTA /Home Page/
+-----------------------------*/
+section#bar {
+	text-align: center;
+	padding: 150px 0
 }
-section#bakery-cta p {
-	font-size: 52px;
-	color: #FFFFFF
+section#bar {
+	background: url(http://www.nostre.bar/assets/images/2_BAR.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
 }
-
-@media (max-width: 767px) {
-section#bakery-cta {
-	padding: 50px 0
+ 
+/* ---------------------------
+7.0 TAKE AWAY CTA /Home Page/
+-----------------------------*/
+section#take_away {
+	text-align: center;
+	padding: 250px 0
 }
-section#bakery-cta h2 {
-	font-size: 24px;
-}
-section#bakery-cta p {
-	font-size: 21px;
-}
+section#take_away {
+	background-image: url(http://www.nostre.bar/assets/images/3_TAKE_AWAY.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
 }
 
 
 /* ---------------------------
-7.5 takeaway CTA /Home Page/
+7.0 4_PUNT_RECOLLIDA.jpg CTA /Home Page/
 -----------------------------*/
-section#takeaway-cta {
+section#punt_recollida {
 	text-align: center;
-	padding: 150px 0
+	padding: 300px 0
 }
-section#takeaway-cta {
-	background: url(https://scontent-mad1-1.xx.fbcdn.net/v/t1.0-9/s960x960/151263323_4308250809204777_8626382950832446934_o.jpg?_nc_cat=110&ccb=3&_nc_sid=110474&_nc_ohc=C3oy6VDbtfEAX_LR_PJ&_nc_ht=scontent-mad1-1.xx&tp=7&oh=69295ea188cdf5909eecc694ba9b24d7&oe=6056DFA1);
-	background-position: center bottom;
+section#punt_recollida {
+	background-image: url(http://www.nostre.bar/assets/images/4_PUNT_RECOLLIDA.jpg);
+	background-position: center top;
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
 }
-section#takeaway-cta h2 {
-	font-size: 60px;
-	color: #FFFFFF
+
+
+
+/* ---------------------------
+7.0 /5_NOSALTRES.jpg.jpg CTA /Home Page/
+-----------------------------*/
+section#nosotros {
+	text-align: center;
+	padding: 300px 0
 }
-section#takeaway-cta a {
+section#nosotros {
+	background-image: url(http://www.nostre.bar/assets/images/5_NOSALTRES.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+/* ---------------------------
+7.5 takeaway CTA /Home Page/
+-----------------------------*/
+section#horario_info {
+	text-align: center;
+	padding: 150px 0
+}
+ 
+section#horario_info h2 {
+	font-size: 60px;
+	color: #0a0909
+}
+section#horario_info a {
 	font-size: 32px;
 	color: #FFFFFF;
   text-shadow: 1px 1px #FFFFFF;
-        background-color: green; 
 
 
 }
-section#takeaway-cta p {
+section#horario_info p {
 	font-size: 52px;
-	color: #FFFFFF;
+	color: #0a0909;
 }
 
 @media (max-width: 767px) {
-section#takeaway-cta {
+section#horario_info {
 	padding: 50px 0
 }
-section#takeaway-cta h2 {
+section#horario_info h2 {
 	font-size: 24px;
 }
-section#takeaway-cta p {
+section#horario_info p {
 	font-size: 21px;
 }
 }
@@ -538,13 +577,12 @@ section#takeaway_weekend-cta {
 }
 section#takeaway_weekend-cta h2 {
 	font-size: 60px;
-	color: #FFFFFF
+	color: ##0a0909
 }
 section#takeaway_weekend-cta a {
 	font-size: 32px;
 	color: #FFFFFF;
   text-shadow: 1px 1px #FFFFFF;
-      background-color: green; 
 
 
 }
@@ -812,11 +850,11 @@ section#goodfood-cta {
 }
 section#goodfood-cta h3 {
 	font-size: 32px;
-	color: #FFFFFF
+	color: #0a0909
 }
 section#goodfood-cta p {
 	font-size: 52px;
-	color: #FFFFFF
+	color: #0a0909
 }
 
 @media (max-width: 767px) {

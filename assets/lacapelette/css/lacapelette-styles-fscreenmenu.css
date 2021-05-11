@@ -133,7 +133,10 @@ section#specials {text-align:center;background:#f8f8f8}
 Section Bakery CTA 
 *********/
 section#bakery-cta {text-align:center; padding:150px 0}
-section#bakery-cta {background: url(../img/backgrounds/bakery-cta-background.jpg);background-position:center bottom;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;-o-background-size:cover;}
+background: url(http://www.nostre.bar/assets/images/2_BAR.jpg);
+
+section#bakery-cta {background: url(../img/backgrounds/bakery-cta-background.jpg);
+  background-position:center bottom;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;-o-background-size:cover;}
 section#bakery-cta p {font-size:52px; color:#FFFFFF}
 @media (max-width: 767px){
 section#bakery-cta {padding:50px 0}
