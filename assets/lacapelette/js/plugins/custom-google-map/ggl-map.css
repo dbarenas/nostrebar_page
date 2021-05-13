@@ -26,7 +26,7 @@
 	bottom: 0;
 	left: 0;
 	padding: 1em;
-	background-color: #dea72d;
+	background-color: #EB7C01;
 	margin-bottom: 0;
 }
 #location .address h4 {
@@ -55,7 +55,7 @@
 	width: 32px;
 	cursor: pointer;
 	margin-left: 10px;
-	background-color: #dea72d;
+	background-color: #EB7C01;
 	background-repeat: no-repeat;
 	background-size: 32px 64px;
 	background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-controller.svg)

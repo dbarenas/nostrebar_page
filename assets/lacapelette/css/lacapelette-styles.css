@@ -160,11 +160,11 @@ hr {
 	letter-spacing: 1px;
 }
 #main-nav .nav > li > a.active {
-	color: #dea72d;
+	color: #EB7C01;
 }
 #main-nav .nav > li > a:hover, #main-nav .nav > li > a:focus, #main-nav .nav > li > a:active {
 	background: transparent;
-	color: #dea72d;
+	color: #EB7C01;
 }
 
 @media (max-width: 767px) {
@@ -331,7 +331,7 @@ header#fullwidth .header-text {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-size: 16px;
-	color: #dea72d
+	color: #EB7C01
 }
 
 /* ---------------------------
@@ -641,7 +641,7 @@ section#menu .menu-list-item h5 {
 	text-transform: uppercase
 }
 section#menu .menu-list-item p.price {
-	color: #dea72d;
+	color: #EB7C01;
 	font-size: 18px;
 	line-height: 30px;
 	font-weight: 500;
@@ -667,7 +667,7 @@ section#wines {
 	color: #FFF
 }
 section#wines h2 {
-	color: #dea72d
+	color: #EB7C01
 }
 section#wines {
 	text-align: center;
@@ -977,13 +977,13 @@ section#reservations .help-block ul  {
     text-transform: uppercase;
     letter-spacing: 1px;
 	padding-left:0;
-	color: #dea72d;
+	color: #EB7C01;
 	margin-bottom: -15px;
 }
 
 
 section#reservations form .alert-danger {
-    color: #dea72d;
+    color: #EB7C01;
     background-color: #0a0909;
     border-color: #0a0909;
 	border-radius:0;
@@ -1011,8 +1011,8 @@ section#reservations .close:focus {
 }
 
 section#reservations .alert-success {
-  background-color: #dea72d;
-  border-color: #dea72d;
+  background-color: #EB7C01;
+  border-color: #EB7C01;
   color: #0a0909;
 }
 
@@ -1042,7 +1042,7 @@ section#reservation-info h3 {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-size: 16px;
-	color: #dea72d
+	color: #EB7C01
 }
 
 /* ---------------------------
@@ -1078,7 +1078,7 @@ section#starters .menu-list-item h5 {
 	text-transform: uppercase
 }
 section#starters .menu-box .menu-list-item p.price {
-	color: #dea72d;
+	color: #EB7C01;
 	font-size: 18px;
 	line-height: 30px;
 	font-weight: 500;
@@ -1133,7 +1133,7 @@ section#salads .menu-list-item h5 {
 	text-transform: uppercase
 }
 section#salads .menu-box .menu-list-item p.price {
-	color: #dea72d;
+	color: #EB7C01;
 	font-size: 18px;
 	line-height: 30px;
 	font-weight: 500;
@@ -1188,7 +1188,7 @@ section#mains .menu-list-item h5 {
 	text-transform: uppercase
 }
 section#mains .menu-box .menu-list-item p.price {
-	color: #dea72d;
+	color: #EB7C01;
 	font-size: 18px;
 	line-height: 30px;
 	font-weight: 500;
@@ -1243,7 +1243,7 @@ section#desserts .menu-list-item h5 {
 	text-transform: uppercase
 }
 section#desserts .menu-box .menu-list-item p.price {
-	color: #dea72d;
+	color: #EB7C01;
 	font-size: 18px;
 	line-height: 30px;
 	font-weight: 500;
@@ -1367,12 +1367,12 @@ section#single-recipe .recipe-wrap .inner-rp-box h3 {
 section#single-recipe .recipe-wrap .inner-rp-box h4 {
 	text-transform: uppercase;
 	font-size: 16px;
-	color: #dea72d;
+	color: #EB7C01;
 }
 section#single-recipe .recipe-wrap .inner-rp-box h5 {
 	text-transform: uppercase;
 	font-size: 14px;
-	color: #dea72d;
+	color: #EB7C01;
 }
 section#single-recipe .recipe-wrap .inner-rp-box hr.border-btm {
 	max-width: 50px;
@@ -1499,7 +1499,7 @@ section#blog .blog-item .inner-blog-box {
 }
 section#blog .blog-item h3 {
 	text-transform: uppercase;
-	color: #dea72d;
+	color: #EB7C01;
 }
 section#blog .blog-item ul.list-inline {
 	border-top: 1px solid #eee;
@@ -1705,7 +1705,7 @@ section#wine-sect-01 h2, section#wine-sect-02 h2, section#wine-sect-03 h2 {
 	color: #FFF
 }
 section#wine-sect-01 span, section#wine-sect-02 span, section#wine-sect-03 span {
-	color: #dea72d
+	color: #EB7C01
 }
 .wine-section-01 {
 	background: url(https://scontent-mad1-1.xx.fbcdn.net/v/t1.0-9/37869726_2199549890074890_6719304209482645504_o.jpg?_nc_cat=101&ccb=3&_nc_sid=6e5ad9&_nc_ohc=aA2AgMTkyRgAX96W7gl&_nc_ht=scontent-mad1-1.xx&oh=e50571344e2561550336483e75558e7c&oe=6059108F)
@@ -1723,7 +1723,7 @@ section#wine-sect-01 span, section#wine-sect-02 span, section#wine-sect-03 span 
 .label-special {
 	text-transform: uppercase;
 	color: #0a0909;
-	background: #dea72d;
+	background: #EB7C01;
 	letter-spacing: 1px;
 	font-size: 9px;
 	border-radius: 0;
@@ -1733,7 +1733,7 @@ section#wine-sect-01 span, section#wine-sect-02 span, section#wine-sect-03 span 
 }
 .label-seasonal {
 	text-transform: uppercase;
-	color: #dea72d;
+	color: #EB7C01;
 	background: #0a0909;
 	letter-spacing: 1px;
 	font-size: 9px;
@@ -1797,8 +1797,8 @@ section#wine-sect-01 span, section#wine-sect-02 span, section#wine-sect-03 span 
 }
 /* Gray Ghost Button */
 .full-light {
-	background-color: #dea72d;
-	border: 2px solid #dea72d;
+	background-color: #EB7C01;
+	border: 2px solid #EB7C01;
 	color: #0a0909;
 	text-transform: uppercase;
 	font-weight: 500;
@@ -1997,7 +1997,7 @@ section#wine-sect-01 span, section#wine-sect-02 span, section#wine-sect-03 span 
 	position: fixed;
 	bottom: 30px;
 	right: 20px;
-	background-color: #dea72d;
+	background-color: #EB7C01;
 }
 #top-link-block .well-sm {
 	padding: 5px 10px;
@@ -2009,8 +2009,8 @@ section#wine-sect-01 span, section#wine-sect-02 span, section#wine-sect-03 span 
 	color: #FFF;
 	font-weight: 300;
 	font-size: 18px;
-	background-color: #dea72d;
-	border: 1px solid #dea72d;
+	background-color: #EB7C01;
+	border: 1px solid #EB7C01;
 	border-radius: 0px;
 	-webkit-box-shadow: none;
 	box-shadow: none;
