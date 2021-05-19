@@ -441,11 +441,11 @@ section#specials {
 -----------------------------*/
 section#home {
 	text-align: center;
-	padding: 450px 0
+	padding: 250px 0
 }
 section#home {
 	background: url(http://www.nostre.bar/assets/images/1_HOME.jpg);
-	background-position: center top;
+	background-position: center center;
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -475,7 +475,7 @@ section#bar {
 -----------------------------*/
 section#take_away {
 	text-align: center;
-	padding: 250px 0
+	padding: 150px 0
 }
 section#take_away {
 	background-image: url(http://www.nostre.bar/assets/images/3_TAKE_AWAY.jpg);
@@ -493,7 +493,7 @@ section#take_away {
 -----------------------------*/
 section#punt_recollida {
 	text-align: center;
-	padding: 300px 0
+	padding: 150px 0
 }
 section#punt_recollida {
 	background-image: url(http://www.nostre.bar/assets/images/4_PUNT_RECOLLIDA.jpg);
@@ -512,7 +512,7 @@ section#punt_recollida {
 -----------------------------*/
 section#nosotros {
 	text-align: center;
-	padding: 300px 0
+	padding: 150px 0
 }
 section#nosotros {
 	background-image: url(http://www.nostre.bar/assets/images/5_NOSALTRES.jpg);
