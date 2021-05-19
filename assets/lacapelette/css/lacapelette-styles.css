@@ -387,7 +387,8 @@ section {
 section h2 {
 	text-transform: uppercase;
 	margin-bottom: 30px;
-		color: #0a0909;
+	color: white;
+	font-size: 40px;
 
 
 }
