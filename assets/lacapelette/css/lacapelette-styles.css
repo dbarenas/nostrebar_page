@@ -385,7 +385,7 @@ header#medium .header-text {
 4. Global Styles for Sections
 -----------------------------*/
 section {
-	padding: 100px 0;
+	padding: 20px 0;
 }
 section h2 {
 	text-transform: uppercase;
