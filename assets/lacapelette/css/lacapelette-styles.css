@@ -398,7 +398,7 @@ section p {
 
 @media (max-width: 767px) {
 section {
-	padding: 75px 0;
+	padding: 0px 0;
 }
 }
 
@@ -493,11 +493,11 @@ section#take_away {
 -----------------------------*/
 section#punt_recollida {
 	text-align: center;
-	padding: 150px 0
+	padding: 200px 0
 }
 section#punt_recollida {
 	background-image: url(http://www.nostre.bar/assets/images/4_PUNT_RECOLLIDA.jpg);
-	background-position: center top;
+	background-position: center center;
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -512,7 +512,7 @@ section#punt_recollida {
 -----------------------------*/
 section#nosotros {
 	text-align: center;
-	padding: 150px 0
+	padding: 200px 0
 }
 section#nosotros {
 	background-image: url(http://www.nostre.bar/assets/images/5_NOSALTRES.jpg);
@@ -617,13 +617,15 @@ section#menu {
 	-o-background-size: cover;
 }
 section#menu h3 {
-	text-transform: uppercase;
-	text-align: left;
+ 	text-align: left;
 	border-bottom: 2px solid #0a0909;
-	padding-bottom: 5px
-}
+	padding-bottom: 5px;
+	padding-top: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+ }
 section#menu .menu-list {
-	margin: 0px 0 0px
+	margin: 10px
 }
 section#menu .menu-list-item {
 	display: block;
@@ -631,7 +633,7 @@ section#menu .menu-list-item {
 	text-align: left
 }
 section#menu .menu-list-item h5 {
-	font-size: 16px;
+	font-size: 12px;
 	line-height: 24px;
 	vertical-align: bottom;
 	font-weight: 500;
