@@ -645,17 +645,7 @@ section#menu .menu-list-item h5 {
 	margin-bottom: 5px;
 	text-transform: uppercase
 }
-section#menu   a {
-	font-size: 12px;
-	line-height: 24px;
-	vertical-align: bottom;
-	font-weight: 500;
-	float: left;
-	max-width: 80%;
-	padding-right: 5px;
-	margin-bottom: 5px;
-	text-transform: uppercase
-}
+ 
 section#menu .menu-list-item p.price {
 	color: #EB7C01;
 	font-size: 18px;
