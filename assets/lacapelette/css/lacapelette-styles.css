@@ -74,9 +74,29 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .lead-sm {
 	font-size: 14px;
 }
-a {
+ 
+section#reservations a {
 	color: #0a0909;
 	text-decoration: none;
+	font-size: 24px;
+    font-weight: 700;
+	text-decoration: underline
+}
+
+section#menu a {
+	color: #0a0909;
+	text-decoration: none;
+	font-size: 24px;
+    font-weight: 700;
+	text-decoration: underline
+}
+
+section.location#address a {
+	color: #0a0909;
+	text-decoration: none;
+	font-size: 24px;
+    font-weight: 700;
+	text-decoration: underline
 }
 a:hover, a:focus {
 	color: #0a0909;
@@ -960,12 +980,12 @@ section#reservations {
 	text-align: center;
 	background: #f8f8f8
 }
-section#reservations .form-control {
+section#reservations .a {
 	display: block;
 	width: 100%;
 	height: 36px;
 	padding: 6px 12px;
-	font-size: 14px;
+	font-size: 24px;
 	line-height: 1.42857143;
 	color: #555;
 	background-color: transparent;
@@ -1966,6 +1986,9 @@ section#wine-sect-01 span, section#wine-sect-02 span, section#wine-sect-03 span 
 }
 .mrgn-10-btm {
 	margin-bottom: 10px
+}
+.mrgn-15-btm {
+	margin-bottom: 15px
 }
 .mrgn-20-btm {
 	margin-bottom: 20px
