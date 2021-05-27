@@ -94,9 +94,8 @@ section#menu a {
 section#location a {
 	color: #fdfdfd;
 	text-decoration: none;
-	font-size: 15px;
+	font-size: 12px;
     font-weight: 700;
-	text-decoration: underline;
 	text-align: center;
 }
 #location .address {
